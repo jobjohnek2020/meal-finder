@@ -1,0 +1,55 @@
+{
+  "name": "meal-finder",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aws-amplify": "^6.13.6",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "cra-template": "1.2.0",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.7",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.1.1",
+    "react-scripts": "5.0.1",
+    "redux": "^5.0.1",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && surge ./build/ jobjohnek2020-j.surge.sh"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.14.3",
+    "@aws-amplify/backend-cli": "^1.5.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "aws-cdk": "^2.1003.0",
+    "aws-cdk-lib": "^2.180.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

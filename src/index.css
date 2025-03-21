@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+  font-family: "Nunito Sans", serif !important;
+}
+
+.ingredient-dropdown{
+  overflow-y: scroll;
+  max-height: 6rem;
+}
+
+.recipe-basic {
+  background-color: #FFF2DF;
+}
+.ingredient-scroll{
+  max-height: 20rem;
+  max-width: 30rem;
+  overflow-y: scroll;
+}
+.text-over-image {
+  background-size: cover;
+}
+.meal-title {
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+}
